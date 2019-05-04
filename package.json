@@ -1,0 +1,57 @@
+{
+  "name": "EventDating",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "ios": "node node_modules/react-native/local-cli/cli.js run-ios",
+    "android": "node node_modules/react-native/local-cli/cli.js run-android",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "date-fns": "^1.30.1",
+    "lodash": "^4.17.11",
+    "native-base": "^2.12.1",
+    "react": "16.8.3",
+    "react-native": "0.59.4",
+    "react-native-confirmation-code-input": "^1.0.4",
+    "react-native-fbsdk": "^0.8.0",
+    "react-native-gesture-handler": "^1.1.0",
+    "react-native-gifted-chat": "^0.7.3",
+    "react-native-keyboard-aware-scroll-view": "^0.8.0",
+    "react-native-localization": "^2.0.1",
+    "react-native-modal-datetime-picker": "^7.4.0",
+    "react-native-progress-bar-animated": "^1.0.6",
+    "react-native-reanimated": "^1.0.0",
+    "react-native-slider": "^0.11.0",
+    "react-native-snap-carousel": "^3.7.5",
+    "react-native-tab-view": "^2.1.0",
+    "react-native-wheel-picker": "^1.2.0",
+    "react-navigation": "^2.14.2",
+    "toggle-switch-react-native": "^2.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "7.4.3",
+    "@babel/runtime": "7.4.3",
+    "@types/jest": "24.0.11",
+    "@types/react": "16.8.13",
+    "@types/react-native": "0.57.43",
+    "@types/react-native-tab-view": "^1.0.6",
+    "@types/react-navigation": "^2.0.21",
+    "@types/react-test-renderer": "16.8.1",
+    "babel-jest": "24.7.1",
+    "jest": "24.7.1",
+    "metro-react-native-babel-preset": "0.53.1",
+    "react-native-typescript-transformer": "^1.2.12",
+    "react-test-renderer": "16.8.3",
+    "tslint": "^5.15.0",
+    "tslint-eslint-rules": "^5.4.0",
+    "tslint-react": "^4.0.0",
+    "tslint-react-recommended": "^1.0.15",
+    "typescript": "^3.4.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
